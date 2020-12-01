@@ -1,4 +1,5 @@
 import React from "react";
+import ReactPageScroller from "react-page-scroller";
 import Header from "./components/header/header.component";
 import AboutMe from "./components/about-me/about-me.component";
 import Projects from "./components/projects/projects.componet";
@@ -7,15 +8,17 @@ import AnimatedBackground from "./components/animated-background/animated-backgr
 
 
 function App() {
-  return (
-    <div className="App">
-      <AnimatedBackground/>
-      <Header/>
-      <AboutMe/>
-      <Projects/>
-      <ContactInfo/>
-    </div>
-  );
+    return (
+        <div className="App">
+            <AnimatedBackground/>
+            <ReactPageScroller>
+                <Header/>
+                <AboutMe/>
+                <Projects/>
+                <ContactInfo/>
+            </ReactPageScroller>
+        </div>
+    );
 }
 
 export default App;
