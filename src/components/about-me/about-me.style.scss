@@ -1,13 +1,14 @@
 #about-me {
   position: relative;
   display: inline-grid;
-  justify-content: space-evenly;
+  justify-content: center;
   align-content: space-evenly;
   align-items: center;
   height: 100vh;
   padding: 2em;
 }
 .summary,.prof-skills{
+  font-size: 2vh;
   padding: 10px;
   text-shadow: 1px 1px 3px #ffffff;
   background-color: rgba(0, 0, 0, 0.8);

@@ -1,12 +1,18 @@
 #projects {
   position: relative;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
   height: 100vh;
   padding: 5em;
-}
-.carousel{
-  color: black;
-  background-color: white;
+  .project-block{
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 90vw;
+    height: 85vh;
+    border-radius: 10px;
+    justify-content: center;
+    align-content: space-evenly;
+  }
+  .project-screenshot{
+    height: 20vh;
+    width: 20vw;
+  }
 }

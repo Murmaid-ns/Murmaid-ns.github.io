@@ -8,7 +8,7 @@ const AboutMe = () => {
         <div id='about-me'>
             <Fade left big>
                 <div className='summary'>
-                    <h1>Summary</h1>
+                    <h1>About me</h1>
                     <span>
                         I'm junior Front end developer from Kyiv experienced with building websites using HTML, CSS, JavaScript and JS Frameworks.Seeking a new opportunity and experience in these sphere. I have such qualities as good learning ability and stress tolerance. Unfortunately, I don`t have commercial experience in IT industry.
                     </span>

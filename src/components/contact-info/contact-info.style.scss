@@ -1,5 +1,18 @@
 #contact-info {
   position: relative;
   display: grid;
+  justify-content: center;
+  align-content: space-evenly;
   height: 100vh;
 }
+
+.contacts {
+  font-size: 3vh;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.8);
+  .__list{
+    list-style-type: none;
+    color: #ff0000;
+  }
+}
+
