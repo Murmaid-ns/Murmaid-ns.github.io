@@ -1,18 +1,26 @@
 import React from "react";
-import './contact-info.style.scss';
+import Fade from 'react-reveal/Fade';
 
+import './contact-info.style.scss';
 const ContactInfo = () => {
   return (
     <div id='contact-info'>
-      <div className="contacts">
-        <h1>Contact Info</h1>
-        <ul className='__list'>
-          <li>Phone: <a className="contacts-link" href="tel:+390957348895">+390957348895</a></li>
-          <li>Email: <a className="contacts-link" href="mailto:19uvs99@gmail.com">19uvs99@gmail.com</a></li>
-          <li>Telegram: <a href="https://t.me/NidilkoViacheslav">@NidilkoViacheslav</a></li>
-          <li>LinkedIn: <a href="https://www.linkedin.com/in/viacheslav-nidilko-798028190/">Link</a></li>
-        </ul>
-      </div>
+      <Fade>
+        <div className="contacts">
+          <h1>Contact Info</h1>
+          <div className='__list'>
+            <hr/>
+            <p>Phone: <a className="contacts-link" href="tel:+390957348895">+380957348895</a></p>
+            <hr/>
+            <p>Email: <a className="contacts-link" href="mailto:19uvs99@gmail.com">19uvs99@gmail.com</a></p>
+            <hr/>
+            <p>Telegram: <a href="https://t.me/NidilkoViacheslav">@NidilkoViacheslav</a></p>
+            <hr/>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/viacheslav-nidilko-798028190/">Click</a></p>
+            <hr/>
+          </div>
+        </div>
+      </Fade>
     </div>
   )
 }

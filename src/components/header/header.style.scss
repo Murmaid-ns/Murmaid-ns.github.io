@@ -8,6 +8,17 @@ header {
   width: 100vw;
   color: white;
 
+  .container{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: repeat(auto-fill, 1fr);
+    grid-gap: 8px;
+    grid-auto-flow: row;
+  }
+
   .photo {
     background-size: cover;
     height: 40vh;
