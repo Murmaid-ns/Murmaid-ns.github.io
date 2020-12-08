@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ed8be26a.chunk.css",
+    "main.js": "/static/js/main.a6c6a5a4.chunk.js",
+    "main.js.map": "/static/js/main.a6c6a5a4.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.fee2ab6c.js",
+    "runtime-main.js.map": "/static/js/runtime-main.fee2ab6c.js.map",
+    "static/js/2.52b01e3a.chunk.js": "/static/js/2.52b01e3a.chunk.js",
+    "static/js/2.52b01e3a.chunk.js.map": "/static/js/2.52b01e3a.chunk.js.map",
+    "static/js/3.cfbbea28.chunk.js": "/static/js/3.cfbbea28.chunk.js",
+    "static/js/3.cfbbea28.chunk.js.map": "/static/js/3.cfbbea28.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.ed8be26a.chunk.css.map": "/static/css/main.ed8be26a.chunk.css.map",
+    "static/js/2.52b01e3a.chunk.js.LICENSE.txt": "/static/js/2.52b01e3a.chunk.js.LICENSE.txt",
+    "static/media/monster_factory.46f9efc6.png": "/static/media/monster_factory.46f9efc6.png",
+    "static/media/news-portal.44f4f949.png": "/static/media/news-portal.44f4f949.png",
+    "static/media/photo.786bc440.jpeg": "/static/media/photo.786bc440.jpeg",
+    "static/media/react_shop.d962ba17.png": "/static/media/react_shop.d962ba17.png",
+    "static/media/todoReact.a580d39d.png": "/static/media/todoReact.a580d39d.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fee2ab6c.js",
+    "static/js/2.52b01e3a.chunk.js",
+    "static/css/main.ed8be26a.chunk.css",
+    "static/js/main.a6c6a5a4.chunk.js"
+  ]
+}
